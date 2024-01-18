@@ -60,7 +60,11 @@ This section involves the practical implementation of the Random Forest Classifi
 After training the model, it's crucial to evaluate its performance. This involves using metrics such as accuracy, precision, recall, and F1-score to quantify how well the model predicts loan approval outcomes. The classification report provides a detailed breakdown of these metrics for both positive and negative classes, offering insights into the model's strengths and weaknesses. Evaluation ensures the model is reliable and aligns with the project's objectives.
 #### f. Hyperparameter Tuning
 Hyperparameters are essential settings that influence a model's performance. In this phase, you will employ GridSearchCV, a method for systematically testing different combinations of hyperparameters, to find the optimal configuration for the Random Forest Classifier. Tuning hyperparameters enhances the model's predictive power and robustness, leading to improved overall performance.
-#### g. Test Case and Prediction
+#### g. Feature Importance Visualization
+* **Feature Imporatnce Scores:** The bars represent the importance scores assigned to each feature.
+* **Descending Order:** Features are sorted in descending order of importance.
+* **Insights:** Identify which features are more influential in making loan approval predictions.
+#### h. Test Case and Prediction
 To validate the model's effectiveness, you will use a predefined test case representative of real-world scenarios. Applying the trained model to this test case allows you to observe how the model makes predictions. This step is essential for understanding the model's behavior in practical situations and gaining confidence in its predictive capabilities. The test case serves as a practical illustration of the model's decision-making process in the context of loan approval predictions.
 
 ### 3. Experimentation with Custom Data
