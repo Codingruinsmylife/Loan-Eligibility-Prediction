@@ -35,11 +35,11 @@ The choice of the Random Forest Classifier is driven by its suitability for this
  2. **Jupyter Notebook (optional):** A user-friendly tool for running and interacting with out code.
 
 ## Code Structure
-The heart of our project lies in the **'loan_approval_prediction.ipynb'** notebook. This interactive document guides you through each step of the odel development process, from loading and exploring the dataset to training the Random Forest Classifier. <br><br>
+The heart of our project lies in the **'loan_approval_prediction.ipynb'** notebook. This interactive document guides you through each step of the model development process, from loading and exploring the dataset to training the Random Forest Classifier. <br><br>
 The **'requireements.txt'** file lists additional tools we used. Don't worry, you don't need to understand them in detail but just make sure to install them using the provided instructions.
 
 ## Usage
-Welcome to the implementation phase of the Loan Approval Predicition Model. Below, we provide a comprehensive guide on how to effectively the model within the Jupyter Notebook environment.
+Welcome to the implementation phase of the Loan Approval Prediction Model. Below, we provide a comprehensive guide on how to effectively the model within the Jupyter Notebook environment.
 ### 1. Opening the Jupyter Notebook
 Initiate your exploration by launching the Jupyter Notebook. Execute the following command in your terminal or command prompt:
 ```bash
@@ -61,7 +61,7 @@ After training the model, it's crucial to evaluate its performance. This involve
 #### f. Hyperparameter Tuning
 Hyperparameters are essential settings that influence a model's performance. In this phase, you will employ GridSearchCV, a method for systematically testing different combinations of hyperparameters, to find the optimal configuration for the Random Forest Classifier. Tuning hyperparameters enhances the model's predictive power and robustness, leading to improved overall performance.
 #### g. Feature Importance Visualization
-* **Feature Imporatnce Scores:** The bars represent the importance scores assigned to each feature.
+* **Feature Importance Scores:** The bars represent the importance scores assigned to each feature.
 * **Descending Order:** Features are sorted in descending order of importance.
 * **Insights:** Identify which features are more influential in making loan approval predictions.
 #### h. Test Case and Prediction
@@ -79,7 +79,7 @@ Feel empowered to experiment with the provided test case or input your own data 
 Once your exploration and potential modifications are complete, ensure to save your work within the notebook to not lose your progress.
 
 ### 6. Troubleshooting Assistance
-Should you encouter any challenges or have inquiries, consult the "Troubleshooting" section in the README or reach out for dedicated support. <br><br>
+Should you encounter any challenges or have inquiries, consult the "Troubleshooting" section in the README or reach out for dedicated support. <br><br>
 Embark on your journey into the realms of machine learning and predictive modeling with the Loan Approval Prediction Model!
 
 ## Contributing
@@ -89,10 +89,10 @@ We appreciate your interest in contributing to the Loan Approval Prediction Mode
    * If you encounter any issues or unexpected behavior, please open an issue on the project.
    * Provide detailed information about the problem, including steps to reproduce it.
 2. **Feature Requests:**
-   * Share your ideas for enhancenebts or new features by opening a feature request on GitHub.
+   * Share your ideas for enhancements or new features by opening a feature request on GitHub.
    * Clearly articulate the rationale and potential benefits of the proposed feature.
 3. **Pull Requests:**
-   * If you have a fix or an enhancement to contrbute, submit a pull request.
+   * If you have a fix or an enhancement to contribute, submit a pull request.
    * Ensure your changes align with the project's coding standards and conventions.
    * Include a detailed description of your changes.
   
